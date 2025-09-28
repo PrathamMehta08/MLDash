@@ -147,24 +147,12 @@ with st.sidebar:
     st.markdown("---")
     
     # Folder selection section
-    st.markdown("### Test Images Folder")
-    col1, col2 = st.columns([2, 1])
+    st.markdown("### Images Folder")
 
-    with col2:
-        if st.button("Browse", use_container_width=True):
-            selected_folder = select_folder()
-            if selected_folder:
-                # set the session state BEFORE the widget is created below
-                st.session_state["test_dir_input"] = selected_folder
-
-    with col1:
-        test_dir = st.text_input(
-            "Folder Path",
-            value=st.session_state.get("test_dir_input", ""),
-            placeholder="Browse for folder path",
-            key="test_dir_input",
-            label_visibility="collapsed"  # hides duplicate label above
-        )   
+    test_dir = st.text_input(
+        "Type Folder Path",
+        value="",
+    )
     
     st.markdown("---")
 
