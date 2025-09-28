@@ -4,3 +4,30 @@ backgroundColor="#111827"
 secondaryBackgroundColor="#1f2937"
 textColor="#f9fafb"
 font="plus jakarta sans"  # This is supported natively
+
+[tool.poetry]
+name = "mldash_uavs"
+version = "0.1.0"
+authors = ["Pratham Mehta"]
+license = "MIT"
+packages = [{ include = "mldash_uavs" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "3.10.6"
+numpy = "2.3.3"
+opencv-python-headless = "4.8.1.78"
+pandas = "2.3.2"
+streamlit = "1.50.0"
+torch = "2.7.1"
+ultralytics = "8.0.167"
+
+[tool.poetry.dev-dependencies]
+# optional dev dependencies
+black = "^23.9"
+isort = "^6.1"
+pytest = "^7.4"
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"
