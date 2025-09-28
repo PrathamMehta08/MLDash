@@ -1,0 +1,8 @@
+matplotlib==3.10.6
+numpy==2.3.3
+opencv_python==4.11.0.86
+opencv_python_headless==4.11.0.86
+pandas==2.3.2
+streamlit==1.50.0
+torch==2.7.1
+ultralytics==8.3.151
