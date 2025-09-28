@@ -5,3 +5,8 @@ pandas==2.3.2
 streamlit==1.50.0
 torch==2.7.1
 ultralytics==8.0.167
+libgl1
+libglib2.0-0
+libsm6
+libxrender1
+libxext6
