@@ -1,12 +1,7 @@
 matplotlib==3.10.6
 numpy==2.3.3
-opencv-python-headless==4.8.1.78
+opencv_python_headless==4.11.0.86
 pandas==2.3.2
 streamlit==1.50.0
 torch==2.7.1
-ultralytics==8.0.167
-libgl1
-libglib2.0-0
-libsm6
-libxrender1
-libxext6
+ultralytics==8.3.151
